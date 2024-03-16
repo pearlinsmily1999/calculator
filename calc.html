@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <h1>Simple Calculator</h1><br><br>
+    <form class="form">
+        <label>First Number:<br></label>
+        <input type="text" id="num1"><br>
+        <label>Second Number:<br></label>
+        <input type="text" id="num2"><br>
+        <label>Answer:<br></label>
+        <input type="text" id="Result"><br>
+
+        <button type="button" onclick="add()" style="color: aliceblue;">+</button>
+        <button  type="button"onclick="sub()" style="color: aliceblue;">-</button>
+        <button  type="button"onclick="mul()" style="color: aliceblue;">*</button>
+        <button  type="button"onclick="div()" style="color: aliceblue;">/</button>
+        <button type="button" ondblclick="reset()" style="color: aliceblue;">Reset</button>
+        
+    </form>
+    <script src="calc.js"></script>
+
+</body>
+</html>
